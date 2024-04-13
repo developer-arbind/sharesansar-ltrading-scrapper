@@ -1,0 +1,28 @@
+{
+  "name": "trading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "trade": "nodemone server.js",
+    "start": "node ./dist/server.js",
+    "compile": "tsc"
+  },
+  "author": "Arbind",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "puppeteer": "^22.1.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "mongoose": "^8.1.3"
+  }
+}
